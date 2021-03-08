@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color:rgb(247, 151, 164);
+    height: 10vh;
+    color:white;
+    display:flex;
+    align-items:center;
+    font-weight: 800;
+    font-size:20px;
+    padding-left: 20px;
+    justify-content: space-evenly;
+}
+.btn{
+    border: 2px solid;
+    border-radius:7px;
+    width: 120px;
+    height:5vh;
+    cursor: pointer; 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.btn:hover{
+    transform: scale(1.1)
+}
+  
